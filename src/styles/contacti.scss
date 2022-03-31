@@ -1,0 +1,23 @@
+$theme-colors:(
+  "primary": #5f0450,
+  "success": #33691e,
+  "danger": #9e0000,
+  "warning": #ffab00,
+    );
+
+
+@import "~bootstrap/scss/bootstrap" ;
+
+body {
+    padding-top: 5rem; // 5 rem  = 5*16
+  }
+
+  .btn-primary{
+    background-color: rgb(4, 102, 141);
+  }
+  .heading-title{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 3rem ;
+    font-display:inherit;
+
+  }
