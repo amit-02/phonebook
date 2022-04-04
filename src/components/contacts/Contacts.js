@@ -35,14 +35,14 @@ const Contacts = () => {
           Delete All
         </button>
       ) : null} */}
-      {/* {selectedContacts.length > 0 ? (
+      {selectedContacts.length > 0 ? (
         <button
           className="btn btn-danger mb-3"
           onClick={() => dispatch(deleteAllContact())}
         >
-          delete all
+          Delete all
         </button>
-      ) : null} */}
+      ) : null}
 
       <table className="table shadow">
         <thead className="bg-danger text-white">
